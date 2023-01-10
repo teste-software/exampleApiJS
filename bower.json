@@ -1,0 +1,76 @@
+{
+  "name": "55tec_plataform_web",
+  "version": "2.0.0",
+  "homepage": "https://www.55pbx.com",
+  "authors": [
+    "55TELECOM",
+    "Flavio Franco Jr."
+  ],
+  "description": "Aplicação WEB da 55TELECOM",
+  "license": "private",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.11",
+    "angular-route": "~1.5.11",
+    "angular-i18n": "~1.5.11"
+  },
+  "overrides": {
+    "amcharts": {
+      "main": [
+        "./dist/amcharts/amcharts.js",
+        "./dist/amcharts/plugins/responsive/responsive.min.js",
+        "./dist/amcharts/serial.js",
+        "./dist/amcharts/funnel.js",
+        "./dist/amcharts/pie.js",
+        "./dist/amcharts/gantt.js"
+      ]
+    },
+    "amcharts-stock": {
+      "main": "./dist/amcharts/amstock.js"
+    },
+    "ammap": {
+      "main": [
+        "./dist/ammap/ammap.js",
+        "./dist/ammap/maps/js/worldLow.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "js/dropdown.js"
+      ]
+    },
+    "slimScroll": {
+      "main": "./jquery.slimscroll.js"
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/FontAwesome.otf",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.svg",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": ">=1.5",
+    "moment": ">=2.5.0",
+    "angular-animate": ">=1.5.11",
+    "angular-route": ">=1.5.11",
+    "angular-touch": ">=1.5.11",
+    "angular-ui-router": ">=1.0.0-beta.1",
+    "angular-translate": "~2.14.0",
+    "jszip": "2.6.1",
+    "lodash": "~2.4.1",
+    "ng-ip-address": "1.1.12"
+  }
+}
