@@ -1,4 +1,5 @@
 
+require("../app-settings");
 const express = require('express');
 const Router = require('../routes/index');
 
@@ -7,7 +8,7 @@ const Router = require('../routes/index');
 
     Router(app);
 
-    app.listen(3000, () => {
+    app.listen(global.http_port, () => {
         console.log('--- listen 3000')
     })
 })()
